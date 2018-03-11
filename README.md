@@ -11,15 +11,15 @@ Python3.x,需安装BeautifulSoup4模块
 
 # 执行演示
 
-#第一个参数:开始爬取的页面url
-#第二个参数:保存的csv文件路径
+第一个参数:开始爬取的页面url
+第二个参数:保存的csv文件路径
 objSpider = Spider('http://top.chinaz.com/hangye/index_jiaotonglvyou.html', 'test.csv')
 objSpider.run()
 
 
 注:
- 生成csv文件如果直接用excel打开会显示乱码,解决步骤如下:
-  1、修改csv文件后缀为txt
-  2、用windows记事本打开
-  3、另存为领一个txt，编码utf-8
-  4、另存后的文件重命名为csv
+生成csv文件如果直接用excel打开会显示乱码,解决步骤如下:
+1、修改csv文件后缀为txt
+2、用windows记事本打开
+3、另存为领一个txt，编码utf-8
+4、另存后的文件重命名为csv
