@@ -18,6 +18,9 @@ objSpider = Spider('http://top.chinaz.com/hangye/index_jiaotonglvyou.html', 'tes
 objSpider.run()
 ```
 
+###生成的CSV格式如下:
+|排名|名字|地址|类型|地区|
+|-:|--:|--:|--:|--:|
 
 注:
 
